@@ -1,0 +1,15 @@
+#ifdef HIGHPRECISION
+precision highp float;
+#else
+precision mediump float;
+#endif
+
+uniform sampler2D x;
+
+varying vec2 v_textcoord;
+
+void main()
+{
+	gl_FragColor = texture2D(x, v_textcoord);
+	//gl_FragColor = vec4(1.0,0.0,0.0,1.0);
+}

@@ -1,0 +1,1 @@
+{"type":"View","props":{"top":0,"runtime":"scenes.FirstScene","right":0,"left":0,"bottom":0,"autoDestroyAtClosed":true},"compId":2,"child":[{"type":"ProgressBar","props":{"width":500,"var":"progressBar","skin":"comp/progress.png","sizeGrid":"10,10,10,10","centerY":0,"centerX":0},"compId":3}],"loadList":["comp/progress.png"],"loadList3D":[]}
